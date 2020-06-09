@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 23rem;
+  width: 18rem;
+  margin: 1rem 1rem;
+  background-color: grey;
+}
+
+.image {
+  height: 60%;
+  width: 80%;
+}
+
+.cart-btn {
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 14rem;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 40vw;
+}
+.image-mod {
+  height: 60%;
+  width: 40%;
+}
